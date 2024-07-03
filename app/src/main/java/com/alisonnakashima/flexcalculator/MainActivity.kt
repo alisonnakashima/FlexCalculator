@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity() {
     private fun btCalculateOnClick( result_better1: String, result_better2: String, result_better3: String, result_better4: String, result_better5: String, result_iqual1: String, result_iqual2: String, result_iqual3: String, result_iqual4: String) {
 
         //Empty error + Zero error
-        if ( etConsum1.text.toString().isEmpty() || etConsum2.text.toString().isEmpty() || etCost1.text.toString().isEmpty() || etCost2.text.toString().isEmpty() || etConsum1.text.toString() == "0" || etConsum2.text.toString() == "0" || etCost1.text.toString() == "0" || etCost2.text.toString() == "0" ) {
+        if ( etConsum1.text.toString().isEmpty() || etConsum2.text.toString().isEmpty() || etCost1.text.toString().isEmpty() || etCost2.text.toString().isEmpty() || etConsum1.text.toString() == "0" || etConsum2.text.toString() == "0" || etCost1.text.toString() == "0" || etCost2.text.toString() == "0" || spFuelTypes1.selectedItem.toString() == spFuelTypes2.selectedItem.toString() ) {
             if (etConsum1.text.toString().isEmpty()) {
                 etConsum1.error = getString(R.string.error_consum)
                 etConsum1.requestFocus()
@@ -128,6 +128,14 @@ class MainActivity : AppCompatActivity() {
             else if (etCost2.text.toString() == "0") {
                 etCost2.error = getString(R.string.error_zero)
                 etCost2.requestFocus()
+            }
+
+            //error same fuel type
+            else if ( spFuelTypes1.selectedItem.toString() == spFuelTypes2.selectedItem.toString() ) {
+                val errorFuel = spFuelTypes2.selectedView as TextView
+                errorFuel.requestFocus()
+                errorFuel.error = getString( R.string.error_fuel )
+                tvResult.setText(getString( R.string.error_fuel ))
             }
         }
         else {

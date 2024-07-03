@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="25dp"
         android:text="@string/tv_consum"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,7 +23,7 @@
         android:id="@+id/tvConsum2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:text="@string/tv_consum"
         app:layout_constraintStart_toStartOf="@+id/tvConsum1"
         app:layout_constraintTop_toBottomOf="@+id/etConsum1" />
@@ -48,29 +48,25 @@
 
     <EditText
         android:id="@+id/etConsum1"
-        android:layout_width="0dp"
+        android:layout_width="100dp"
         android:layout_height="48dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="5dp"
         android:ems="10"
         android:hint="@string/text_ex_gas"
         android:inputType="numberDecimal"
-        app:layout_constraintEnd_toStartOf="@+id/spFuelTypes1"
         app:layout_constraintStart_toEndOf="@+id/tvConsum1"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/etConsum2"
-        android:layout_width="0dp"
+        android:layout_width="100dp"
         android:layout_height="48dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="5dp"
         android:ems="10"
         android:hint="@string/text_ex_gas_value"
         android:inputType="numberDecimal"
-        app:layout_constraintEnd_toStartOf="@+id/spFuelTypes2"
         app:layout_constraintStart_toEndOf="@+id/tvConsum2"
         app:layout_constraintTop_toBottomOf="@+id/etConsum1" />
 
@@ -167,23 +163,27 @@
 
     <Spinner
         android:id="@+id/spFuelTypes1"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="48dp"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="5dp"
         android:entries="@array/Combustíveis"
         android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etConsum1"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/spFuelTypes2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="48dp"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
         android:entries="@array/Combustíveis"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etConsum2"
         app:layout_constraintTop_toBottomOf="@+id/spFuelTypes1" />
 
     <ImageView
