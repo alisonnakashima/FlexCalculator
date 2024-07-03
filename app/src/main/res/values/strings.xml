@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">FlexCalc App</string>
+    <string name="app_text">Ajudando você a poupar dinheiro.</string>
+    <string name="bt_start">Começar</string>
+    <string name="bt_clean">Limpar</string>
+    <string name="bt_calc">Calcular</string>
+    <string name="tv_consum">Consumo \n (km/l): </string>
+    <string name="tv_cost">Preço/litro (R$): </string>
+
+    <string name="bt_search">Tipo de combustível</string>
+    <string name="text_ethanol">Etanol </string>
+    <string name="text_gasoline">Gasolina </string>
+    <string name="text_ex_gas">Ex: 15,6 </string>
+    <string name="text_ex_ethanol">Ex: 10,1 </string>
+    <string name="text_ex_gas_value">Ex: R$5,25 </string>
+    <string name="text_ex_ethanol_value">Ex: R$4,15 </string>
+
+    <string name="text_insert1">Consumo em álcool: </string>
+    <string name="text_insert2">Consumo em gasolina: </string>
+    <string name="text_insert_value1">Valor/Litro do álcool: </string>
+    <string name="text_insert_value2">Valor/Litro da gasolina: </string>
+
+    <string name="error_consum" translatable="false">Campo consumo deve ser preenchido. </string>
+    <string name="error_cost" translatable="false">Campo custo deve ser preenchido. </string>
+    <string name="error_zero" translatable="false">Valor inserido deve ser maior que zero.</string>
+
+    <string name="result_better1">O produto</string>
+    <string name="result_better2">custa R$</string>
+    <string name="result_better3">/km. Então, ele é mais barato do que</string>
+    <string name="result_better4">, que custa R$</string>
+    <string name="result_better5">/km.</string>
+
+    <string name="result_iqual1">Os produtos </string>
+    <string name="result_iqual2">e</string>
+    <string name="result_iqual3">tem o mesmo custo/km (R$</string>
+    <string name="result_iqual4">).</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlexCalc</string>
+    <string name="app_text">Helping you to save money.</string>
+    <string name="bt_start">Start</string>
+    <string name="bt_clean">Reset</string>
+    <string name="bt_calc">Calculate</string>
+    <string name="tv_consum">Consum \n(mi/gal): </string>
+    <string name="tv_cost">Price/gal ($): </string>
+
+    <string name="bt_search">Fuel type</string>
+    <string name="text_ethanol">Ethanol</string>
+    <string name="text_gasoline">Gasoline</string>
+    <string name="text_ex_gas">Ex: 15,6 </string>
+    <string name="text_ex_ethanol">Ex: 10,1 </string>
+    <string name="text_ex_gas_value">Ex: $2.25 </string>
+    <string name="text_ex_ethanol_value">Ex: $1.15 </string>
+
+    <string name="text_insert1">Fuel (1) consumption: </string>
+    <string name="text_insert2">Fuel (2) consumption: </string>
+    <string name="text_insert_value1">Price/gallon (1): </string>
+    <string name="text_insert_value2">Price/gallon (2): </string>
+
+    <string name="error_consum" translatable="false">Consumption field must be filled. </string>
+    <string name="error_cost" translatable="false">Cost field must be filled in. </string>
+    <string name="error_zero" translatable="false">Inserted value must be bigger than zero.</string>
+
+    <string name="result_better1">The product</string>
+    <string name="result_better2">costs $</string>
+    <string name="result_better3">/mi. So its cheapper than</string>
+    <string name="result_better4">, that costs $</string>
+    <string name="result_better5">/mi.</string>
+
+    <string name="result_iqual1">The products </string>
+    <string name="result_iqual2">and</string>
+    <string name="result_iqual3">have the same cost/mi ($</string>
+    <string name="result_iqual4">).</string>
+
+</resources>
