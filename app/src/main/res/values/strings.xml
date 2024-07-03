@@ -20,9 +20,9 @@
     <string name="text_insert_value1">Valor/Litro do álcool: </string>
     <string name="text_insert_value2">Valor/Litro da gasolina: </string>
 
-    <string name="error_consum" translatable="false">Campo consumo deve ser preenchido. </string>
-    <string name="error_cost" translatable="false">Campo custo deve ser preenchido. </string>
-    <string name="error_zero" translatable="false">Valor inserido deve ser maior que zero.</string>
+    <string name="error_consum">Campo consumo deve ser preenchido. </string>
+    <string name="error_cost">Campo custo deve ser preenchido. </string>
+    <string name="error_zero">Valor inserido deve ser maior que zero.</string>
     <string name="error_fuel">Combustíveis selecionados são iguais, altere um dos mesmos.</string>
 
     <string name="result_better1">O produto</string>
